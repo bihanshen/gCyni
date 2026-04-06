@@ -1,0 +1,22 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: energy, unit: TeV, datatype: float64}
+# - {name: flux, unit: TeV / (cm2 s), datatype: float64}
+# - {name: flux_error, unit: TeV / (cm2 s), datatype: float64}
+# - {name: ul, unit: '', datatype: bool}
+# meta: !!omap
+# - comments: [VHE gamma-ray spectrum of Gamma cygni, Ruo gave these to me on April 29, 2025]
+# - keywords: !!omap
+#   - cl: {value: 0.95}
+# schema: astropy-2.0
+energy flux flux_error ul
+0.28 1.6307200000000002e-11 2.5088000000000004e-12 False
+0.36 1.34784e-11 3.73248e-12 False
+0.48 7.87968e-12 2.17728e-12 False
+0.78 6.084e-12 1.058616e-12 False
+1.39 3.4198169999999993e-12 6.665744999999999e-13 False
+2.47 1.6228394000000002e-12 4.6061795e-13 False
+4.39 6.552514e-13 2.1392030999999997e-13 False
+7.81 1.5249024999999998e-13 2.5069397099999996e-13 False
+13.89 1.2038963040000002e-13 0 True

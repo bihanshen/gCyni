@@ -1,0 +1,26 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: energy, unit: TeV, datatype: float64}
+# - {name: flux, unit: TeV / (cm2 s), datatype: float64}
+# - {name: flux_error_lo, unit: TeV / (cm2 s), datatype: float64}
+# - {name: flux_error_hi, unit: TeV / (cm2 s), datatype: float64}
+# - {name: ul, unit: '', datatype: int64}
+# meta: !!omap
+# - comments: [hawc pass 5 data gamma cygni]
+# - keywords: !!omap
+#   - cl: {value: 0.95}
+energy flux flux_error_lo flux_error_hi ul
+0.230552 4.085150e-08 0 0 1
+0.423732 1.356812e-11 3.930543e-12 3.159780e-12 0
+0.857471 6.268376e-12 1.201070e-12 1.052572e-12 0
+1.732601 2.912480e-12 6.853036e-13 5.328154e-13 0
+3.303946 1.218091e-12 4.401167e-13 3.331629e-13 0
+5.990498 9.025052e-13 2.987977e-13 2.204975e-13 0
+11.243886 5.772881e-13 1.724013e-13 1.336334e-13 0
+20.604686 2.566892e-13 1.323555e-13 8.770055e-14 0
+36.726601 2.388408e-13 9.617583e-14 6.926231e-14 0
+65.247712 1.371605e-13 8.137280e-14 4.875082e-14 0
+118.692323 2.116925e-13 0 0 1
+
+
