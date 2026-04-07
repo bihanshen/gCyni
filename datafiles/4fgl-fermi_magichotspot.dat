@@ -1,0 +1,19 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: energy, unit: MeV, datatype: float64}
+# - {name: flux, unit: MeV / (cm2 s), datatype: float64}
+# - {name: flux_error, unit: MeV / (cm2 s), datatype: float64}
+# - {name: ul, unit: '', datatype: int64}
+# meta: !!omap
+# - comments: [4fgl-fermi data]
+# - keywords: !!omap
+#   - cl: {value: 0.95}
+energy flux flux_error ul
+15852.216681248838 1.1148094837201869e-05 7.18921414390353e-07 0
+39835.47499271299 1.11875752109008e-05 9.982414689181588e-07 0
+100103.67002944909 9.064894366100962e-06 1.3719417411681295e-06 0
+251553.2890017717 6.696341721928421e-06 1.8381629852470659e-06 0
+632135.2372894355 3.5282340084320733e-06 2.2192558079262407e-06 0
+
+

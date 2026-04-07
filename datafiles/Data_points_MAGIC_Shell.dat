@@ -1,0 +1,18 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: energy_edge_lo, unit: GeV, datatype: float64}
+# - {name: energy_edge_hi, unit: GeV, datatype: float64}
+# - {name: flux, unit: eV / (cm2 s), datatype: float64}
+# - {name: flux_error_hi, unit: eV / (cm2 s), datatype: float64}
+# - {name: flux_error_lo, unit: eV / (cm2 s), datatype: float64}
+# - {name: sig, unit: '', datatype: float64}
+# meta: !!omap
+# - comments: [MAGIC data on arc]
+# - keywords: !!omap
+#   - cl: {value: 0.95}
+energy_edge_lo energy_edge_hi flux flux_error_hi flux_error_lo sig
+250.0 539.0 1.33e+00 5.45e-01 5.45e-01 3.0
+539.0 1160.0 1.93e+00 6.13e-01 6.13e-01 4.7
+1160.0 2500.0 8.43e-01 2.47e-01 2.47e-01 3.8
+2500.0 4446.0 0.0 0.687 0.0 0.5
